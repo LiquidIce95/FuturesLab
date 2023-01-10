@@ -52,28 +52,28 @@ void Modules::SubroutineSpreadsConstructor()
 	{
 		case 1:
 		{
-			string Dirr = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_Raw/";
+			string Dirr = "/media/usr/Volume/Futures2020/ASCII_SPREADS_Raw/";
 			mkdir(Dirr.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 			break;
 		}
 		
 		case 2:
 		{
-			string Dirr2 = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_Opt/";
+			string Dirr2 = "/media/usr/Volume/Futures2020/ASCII_SPREADS_Opt/";
 			mkdir(Dirr2.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 			break;
 		}
 		
 		case 3:
 		{
-			string Dirr3 = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_VolSplit/";
+			string Dirr3 = "/media/usr/Volume/Futures2020/ASCII_SPREADS_VolSplit/";
 			mkdir(Dirr3.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 			break;
 		}
 		
 		case 4:
 		{
-			string Dir4 = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_Floating/";
+			string Dir4 = "/media/usr/Volume/Futures2020/ASCII_SPREADS_Floating/";
 			mkdir(Dir4.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 			break;
 		}
@@ -209,7 +209,7 @@ void Modules::SubroutineSpreadsConstructor()
 			{
 				case 1:
 				{
-					string Dir = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_Raw/"+Path2;
+					string Dir = "/media/usr/Volume/Futures2020/ASCII_SPREADS_Raw/"+Path2;
 			
 					mkdir(Dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 					
@@ -406,7 +406,7 @@ void Modules::SubroutineSpreadsConstructor()
 				//volSplit+RET
 				case 3:
 				{
-					string Dir = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_VolSplit/"+Path2;
+					string Dir = "/media/usr/Volume/Futures2020/ASCII_SPREADS_VolSplit/"+Path2;
 			
 					mkdir(Dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 					
@@ -461,7 +461,7 @@ void Modules::SubroutineSpreadsConstructor()
 					int newname = 0;
 					int currisin = 0;
 					
-					string Dir = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_Floating/"+Path2;
+					string Dir = "/media/usr/Volume/Futures2020/ASCII_SPREADS_Floating/"+Path2;
 					mkdir(Dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 					
 					int k=0;
