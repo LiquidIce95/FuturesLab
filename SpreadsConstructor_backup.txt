@@ -31,7 +31,7 @@ void Modules::SubroutineSpreadsConstructor()
 {
 	std::cout << "**********SPREADCONSTRUCTOR********"<< endl;
 	std::cout << "Please select type in Folder Destination of Futures contracts or return to main Menu with 3 \n \
-			Sample: F:/Users/david/Desktop/The_Domain/Library/PremiumData/CONTRACTS/ \n \
+			Sample: F:/Users/usr/Desktop/The_Domain/Library/PremiumData/CONTRACTS/ \n \
 			Target folder should only consist of one future" << endl;
 
 	string Path = "/media/Dave/Volume/Futures2020/ASCII/";
