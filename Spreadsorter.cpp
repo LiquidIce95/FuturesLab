@@ -20,8 +20,8 @@ void Modules::SubroutineSpreadsorter()
 {
 	// Testing purpose
 	/*
-	char oldname[] = "/home/Dave/Desktop/dev/C++/Spreadsorter/oldfol/file.txt";
-	char newname[] = "/home/Dave/Desktop/dev/C++/Spreadsorter/newfol/file.txt";
+	char oldname[] = "/home/usr/Desktop/dev/C++/Spreadsorter/oldfol/file.txt";
+	char newname[] = "/home/usr/Desktop/dev/C++/Spreadsorter/newfol/file.txt";
 	
 	move(oldname, newname);
 	*/
@@ -33,7 +33,7 @@ void Modules::SubroutineSpreadsorter()
 	string contractmonths;
 	string filelocation;
 	string Folder;
-	string path = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_Opt/";
+	string path = "/media/usr/Volume/Futures2020/ASCII_SPREADS_Opt/";
 	
 	for (const auto& entry : fs::directory_iterator(path))
 	{
@@ -60,7 +60,7 @@ void Modules::SubroutineSpreadsorter()
 			MonthA = string()+filelocation[filelocation.size()-13]+filelocation[filelocation.size()-12];
 			contractmonths = string()+MonthA+MonthB;
 			
-			string len = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_Opt/";
+			string len = "/media/usr/Volume/Futures2020/ASCII_SPREADS_Opt/";
 			
 			filelocation.erase(filelocation.begin()+path.length(),filelocation.end());
 			
@@ -68,8 +68,8 @@ void Modules::SubroutineSpreadsorter()
 		
 			snip = filelocation;
 
-			string dir = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_SUB_ALL_Opt"+snip+"/";
-			newname = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_SUB_ALL_Opt"+snip+"/"+contractmonths+"/";
+			string dir = "/media/usr/Volume/Futures2020/ASCII_SPREADS_SUB_ALL_Opt"+snip+"/";
+			newname = "/media/usr/Volume/Futures2020/ASCII_SPREADS_SUB_ALL_Opt"+snip+"/"+contractmonths+"/";
 			cout<<newname<<endl;
 			
 			mkdir(dir.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
