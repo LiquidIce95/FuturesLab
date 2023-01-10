@@ -66,7 +66,7 @@ void Modules::SubroutineSpreadTuner()
 	{
 		case 1:
 		{
-			string Path = "/media/Dave/Volume/Futures2020/ASCII_CalenderSpreadsSelected/";
+			string Path = "/media/usr/Volume/Futures2020/ASCII_CalenderSpreadsSelected/";
 			
 			if(Path != "0")
 			{				
@@ -237,7 +237,7 @@ void Modules::SubroutineSpreadTuner()
 	
 		case 2:
 		{
-			string Path = "/media/Dave/Volume/Futures2020/ASCII_CalendarSpreadsTuned_OPT";
+			string Path = "/media/usr/Volume/Futures2020/ASCII_CalendarSpreadsTuned_OPT";
 			
 			///Reading values
 			long Row=0;
@@ -376,8 +376,8 @@ void Modules::SubroutineSpreadTuner()
 					}*/
 					
 					//Creating necessary folders
-					string Outputpath1 = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_DB_SUB_OPT";
-					string Outputpath2 = "/media/Dave/Volume/Futures2020/ASCII_SPREADS_MC_SUB_OPT";
+					string Outputpath1 = "/media/usr/Volume/Futures2020/ASCII_SPREADS_DB_SUB_OPT";
+					string Outputpath2 = "/media/usr/Volume/Futures2020/ASCII_SPREADS_MC_SUB_OPT";
 					
 					string filelocationCopy1 = filelocation;
 					string filelocationCopy2 = filelocation;
