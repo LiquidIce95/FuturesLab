@@ -114,7 +114,7 @@ void Modules::SubroutineFuturesConstructor()
 			Sample: F:/Users/david/Desktop/The_Domain/Library/PremiumData/CONTRACTS/ \n \
 			Target folder should only consist of one future" << endl;
 
-	string Path = "/home/Dave/Desktop/The_Domain (symlink)/Library/PremiumData/CONTRACTS/ASCII2/";
+	string Path = "SET HERE YOUR FILEPATH";
 
 	
 
