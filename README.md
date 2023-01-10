@@ -1,5 +1,8 @@
 # FuturesLab
 App for creating spreads from Future contracts, Linux MX, developed on C++ 17
+
+execute compile.sh as a bash script to run the conosle application.
+
 Around 2017 I started trading, after approximately 18 month I encoutered algorithmic trading and learned how to code in C++ to 
 develop a trading app, where I could reformat excel files of Futures (commodoty contracts) data into spreads ( difference in price
 of two commodities).
