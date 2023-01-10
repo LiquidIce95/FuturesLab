@@ -42,7 +42,7 @@ void Modules::SubroutineSpreadTuner()
 		{
 			if(Path != "0")
 			{
-				string Path = "/media/Dave/Volume/Futures2020/ASCII_CalenderSpreadsSelected/";
+				string Path = "/media/usr/Volume/Futures2020/ASCII_CalenderSpreadsSelected/";
 				
 				string Date;
 				string Spread;
@@ -134,7 +134,7 @@ void Modules::SubroutineSpreadTuner()
 							string filelocationCopy = filelocation;
 							string Path2Copy = Path2;
 							string Path3Copy = Path3;
-							string Dir = "/media/Dave/Volume/Futures2020/ASCII_CalendarSpreadsTuned/";
+							string Dir = "/media/usr/Volume/Futures2020/ASCII_CalendarSpreadsTuned/";
 							
 							filelocationCopy.erase(filelocationCopy.begin(),filelocationCopy.begin()+Path3Copy.length()+1);
 							
